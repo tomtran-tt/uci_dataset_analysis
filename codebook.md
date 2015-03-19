@@ -1,7 +1,10 @@
 # Human Activity Recognition Using Smartphones Raw Dataset Overview
-The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.  The raw dataset obtained from the Galaxy SII sensor signals while each person performed the six activities. 
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
+Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
+wearing a smartphone (Samsung Galaxy S II) on the waist.  The raw dataset obtained from the Galaxy SII sensor 
+signals while each person performed the six activities. 
 
-The complete experiment description can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones )
+The complete experiment description can be found at [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 # Tidy Dataframe Overview
 
@@ -42,12 +45,15 @@ Below is the detailed description of the row variables:
 
 * SUBJECT.ID is an integer range from 1 to 30
 
-## Column variables ( GS3 sensors data collected during the experiment)
+## Column variables ( Averages of the mean and standard deviation for each measurements)
 
-This tidy data frame has 79 of the 561 variables collected during the experment.  Each of the 79 variable is labeled
+This tidy dataframe contains averages of 79 variables (mean and standard deviation measurements)
+out of the 561 variables collected during the experiment.  Each of the 79 variable is labeled
 using the following keyword:
 
-* TIME: a time based variable unit in xxx
+* TIME: a time domain signal, captured at a constant rate of 50Hz. hen they were filtered using a median 
+filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+
 * FFT: 
 
 #####TIME.BODY.ACC.MEAN.X
