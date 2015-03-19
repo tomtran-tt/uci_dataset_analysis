@@ -64,6 +64,16 @@ filter and a 3rd order low pass Butterworth filter with a corner frequency of 20
 
 * **GRAVITY**: Gravity signals separated from low pass Butterworth filter with corner frequency of 0.3Hz
 
+* **JERK**: The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+* **MAG**: The magnitude of these signals were calculated using the Euclidean norm
+
+* **STD**: Standard deviation value 
+
+* **MEAN**: Mean value
+
+* **X.Y.Y**: Denote 3-axial signals in the X, Y and Z directions.
+
 #####TIME.BODY.ACC.MEAN.X
 #####TIME.BODY.ACC.MEAN.Y             
 #####TIME.BODY.ACC.MEAN.Z            
