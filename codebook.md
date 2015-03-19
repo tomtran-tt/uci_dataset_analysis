@@ -1,21 +1,28 @@
-# Human Activity Recognition Using Smartphones Dataset Overview
-The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
-
-The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
+# Human Activity Recognition Using Smartphones Raw Dataset Overview
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.  The raw dataset obtained from the Galaxy SII sensor signals while each person performed the six activities. 
 
 The complete experiment description can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones )
 
-# Tidy Dataframe 
+# Tidy Dataframe Overview
 
-This tidy data frame is generated from running the run_analysis.R script. It takes the raw input from the
+The tidy dataframe is generated from running the run_analysis.R script. It takes the raw input from the
 [Human Activity Recognition Using Smartphones Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
+Perform the following cleanup tasks:
 
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-It has 180 observations
-for the 30 SUBJECT.ID x 6 ACTIVITY.ID combination.  Below is the detailed description of each variables:
+The tidy dataframe produced in step 5 has the following structure:
 
 ## Row variables:
+
+This tidy datafram has 180 rows (observation) for each of the SUBJECT.ID (30) x ACTIVITY.ID (6) combination.
+Below is the detailed description of the row variables:
+
 ##### ACTIVITY.ID / ACTIVITY.NAME
 1. WALKING
 2. WALKING_UPSTAIRS
@@ -29,6 +36,9 @@ for the 30 SUBJECT.ID x 6 ACTIVITY.ID combination.  Below is the detailed descri
 * Subject ID range from 1 to 30
 
 ## Column variables ( GS3 sensors data collected during the experiment)
+
+This tidy data frame has 79 of the 561 variables collected during the experment.  Each of the 79 variable is labeled
+using the following keyword:
 
 * TIME: a time based variable unit in xxx
 * FFT: 
