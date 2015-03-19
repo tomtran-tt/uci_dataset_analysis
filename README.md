@@ -1,17 +1,20 @@
 # uci_dataset_analysis
 
 This repository contains the run_analyis.R script which takes raw data 
-from "./UCI HAR Dataset" directory, perform 5 mains processings steps and return
-a tidy dataframe as a result.  Below is the detailed description of the expected
-input, processings steps and its output:
+from "./UCI HAR Dataset" directory, perform 5 main processing steps and return
+a tidy dataframe as a result.  Below are the detailed descriptions of the expected
+input, processings steps and the output:
 
 ##Expected input: "./UCI HAR Dataset"
-###./UCI HAR Dataset/test (test-group data-set)
+1. activity_labels.txt ( Text label for each activity id)
+2. features.txt ( Text label for each sensor output)
+
+####./UCI HAR Dataset/test (test-group data-set)
 1. subject_test.txt (test-group subject-id linked to X_test.txt data)
 2. y_test.txt (test-group activity-id linked to X_test.txt data)
 3. X_test.txt (sensors data for test-group)
 
-###./UCI HAR Dataset/train (train-group data-set)
+####./UCI HAR Dataset/train (train-group data-set)
 1. subject_train.txt (train-group subject-id linked to X_train.txt data)
 2. y_train.txt (train-group activity-id linked to X_train.txt data)
 3. X_train.txt (sensors data for train-group)
