@@ -6,7 +6,7 @@ signals while each person performed the six activities.
 
 The complete experiment description can be found at [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-# Tidy Dataframe Overview
+# HAR Tidy Dataframe (har_tidy_data.txt) Overview
 
 The tidy dataframe is generated from running the run_analysis.R script. It takes the raw input from the
 [Human Activity Recognition Using Smartphones Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
@@ -50,6 +50,8 @@ Below is the detailed description of the row variables:
 This tidy dataframe contains averages of 79 variables (mean and standard deviation measurements)
 out of the 561 variables collected during the experiment.  Each of the 79 variable is labeled
 using the following keyword:
+
+* All variables units are normalized within [-1,1]
 
 * **TIME**: a time domain signal, captured at a constant rate of 50Hz. Then they were filtered using a median 
 filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
