@@ -23,7 +23,14 @@ The tidy dataframe produced in step 5 has the following structure:
 This tidy datafram has 180 rows (observation) for each of the SUBJECT.ID (30) x ACTIVITY.ID (6) combination.
 Below is the detailed description of the row variables:
 
-##### ACTIVITY.ID / ACTIVITY.NAME
+##### ACTIVITY.ID
+
+* ACTIVITY.ID is an integer range from 1 to 6
+
+#####ACTIVITY.NAME
+
+* ACTIVIY.NAME is the activity description for each activity id.
+
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
@@ -33,7 +40,7 @@ Below is the detailed description of the row variables:
 
 #####SUBJECT.ID
 
-* Subject ID range from 1 to 30
+* SUBJECT.ID is an integer range from 1 to 30
 
 ## Column variables ( GS3 sensors data collected during the experiment)
 
