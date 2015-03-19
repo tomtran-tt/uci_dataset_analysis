@@ -26,7 +26,8 @@ require("reshape2")
 run_analysis <- function() {
     
     if (!file.exists("./UCI HAR Dataset")) {
-        message("Please download and unzip UCI HAR Dataset to current directory")
+        message("Please download https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip")
+        message("and unzip it into the current directory")
         return(-1)
     }
     
