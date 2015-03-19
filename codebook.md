@@ -51,10 +51,10 @@ This tidy dataframe contains averages of 79 variables (mean and standard deviati
 out of the 561 variables collected during the experiment.  Each of the 79 variable is labeled
 using the following keyword:
 
-* TIME: a time domain signal, captured at a constant rate of 50Hz. hen they were filtered using a median 
+* **TIME**: a time domain signal, captured at a constant rate of 50Hz. hen they were filtered using a median 
 filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
 
-* FFT: 
+* **FFT**: 
 
 #####TIME.BODY.ACC.MEAN.X
 #####TIME.BODY.ACC.MEAN.Y             
