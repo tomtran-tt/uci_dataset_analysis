@@ -48,10 +48,11 @@ Below is the detailed description of the row variables:
 ## Column variables ( Averages of the mean and standard deviation for each measurements)
 
 This tidy dataframe contains averages of 79 variables (mean and standard deviation measurements)
-out of the 561 variables collected during the experiment.  Each of the 79 variable is labeled
-using the following keyword:
+out of the 561 variables collected during the experiment.  
 
 * All variables units are normalized within [-1,1]
+
+Each of the 79 variable is labeled using the following keyword:
 
 * **TIME**: a time domain signal, captured at a constant rate of 50Hz. Then they were filtered using a median 
 filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
