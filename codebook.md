@@ -51,10 +51,18 @@ This tidy dataframe contains averages of 79 variables (mean and standard deviati
 out of the 561 variables collected during the experiment.  Each of the 79 variable is labeled
 using the following keyword:
 
-* **TIME**: a time domain signal, captured at a constant rate of 50Hz. hen they were filtered using a median 
+* **TIME**: a time domain signal, captured at a constant rate of 50Hz. Then they were filtered using a median 
 filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
 
-* **FFT**: 
+* **FFT**: a frequency domain signals, as a result of applying Fast Fourier Transform (FFT) to some of the signal
+
+* **ACC**: GSII accelerometer signals
+
+* **GYRO**: GSII gyroscope signals
+
+* **BODY**: Body signals separated from low pass Butterworth filter with corner frequency of 0.3Hz
+
+* **GRAVITY**: Gravity signals separated from low pass Butterworth filter with corner frequency of 0.3Hz
 
 #####TIME.BODY.ACC.MEAN.X
 #####TIME.BODY.ACC.MEAN.Y             
