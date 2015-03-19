@@ -21,7 +21,7 @@ input, processings steps and the output:
 
 ## Processing steps : 
 
-run_analysis() does the following process to the raw dataset
+run_analysis() perform the following tranformation to the raw dataset
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for 
