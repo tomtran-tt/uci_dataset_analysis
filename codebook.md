@@ -79,8 +79,13 @@ filter and a 3rd order low pass Butterworth filter with a corner frequency of 20
 
 #####TIME.BODY.ACC.MEAN.X
 * Number range from -1 to 1
+
 #####TIME.BODY.ACC.MEAN.Y
-#####TIME.BODY.ACC.MEAN.Z            
+* Number range from -1 to 1
+
+#####TIME.BODY.ACC.MEAN.Z
+* Number range from -1 to 1
+            
 #####TIME.BODY.ACC.STD.X              
 #####TIME.BODY.ACC.STD.Y             
 #####TIME.BODY.ACC.STD.Z              
