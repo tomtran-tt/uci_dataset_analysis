@@ -6,18 +6,18 @@ a tidy dataframe as a result.  Below are the detailed descriptions of the expect
 input, cleanup tasks and the output:
 
 ##Expected input: "./UCI HAR Dataset"
-1. activity_labels.txt ( Text label for each activity id)
-2. features.txt ( Text label for each sensor output)
+1. activity_labels.txt - Text label for each activity id
+2. features.txt - Text label for each sensor output
 
-####./UCI HAR Dataset/test (test-group data-set)
-1. subject_test.txt (test-group subject-id linked to X_test.txt data)
-2. y_test.txt (test-group activity-id linked to X_test.txt data)
-3. X_test.txt (sensors data for test-group)
+####./UCI HAR Dataset/test - test-group data-set 
+1. subject_test.txt - test-group subject-id linked to X_test.txt data
+2. y_test.txt - test-group activity-id linked to X_test.txt data
+3. X_test.txt - sensors data for test-group
 
-####./UCI HAR Dataset/train (train-group data-set)
-1. subject_train.txt (train-group subject-id linked to X_train.txt data)
-2. y_train.txt (train-group activity-id linked to X_train.txt data)
-3. X_train.txt (sensors data for train-group)
+####./UCI HAR Dataset/train - train-group data-set
+1. subject_train.txt - train-group subject-id linked to X_train.txt data
+2. y_train.txt - train-group activity-id linked to X_train.txt data
+3. X_train.txt - sensors data for train-group
 
 ## Cleanup tasks : 
 
