@@ -1,9 +1,9 @@
 # uci_dataset_analysis
 
 This repository contains the run_analyis.R script which takes raw data 
-from "./UCI HAR Dataset" directory, perform 5 main processing steps and return
+from "./UCI HAR Dataset" directory, perform 5 cleanup tasks to the raw data and return
 a tidy dataframe as a result.  Below are the detailed descriptions of the expected
-input, processings steps and the output:
+input, cleanup tasks and the output:
 
 ##Expected input: "./UCI HAR Dataset"
 1. activity_labels.txt ( Text label for each activity id)
@@ -19,7 +19,7 @@ input, processings steps and the output:
 2. y_train.txt (train-group activity-id linked to X_train.txt data)
 3. X_train.txt (sensors data for train-group)
 
-## Processing steps : 
+## Cleanup tasks : 
 
 run_analysis() perform the following cleanup tasks to the raw dataset
 
