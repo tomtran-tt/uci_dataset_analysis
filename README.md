@@ -35,3 +35,7 @@ run_analysis() perform the following cleanup tasks to the raw dataset
 
 1. return a tidy dataframe from step 5
 2. it also writes this tidy dataframe to a file named "har_tidy.data.txt"
+
+The result tidy datafram has:
+* 180 rows (observations) for each of the SUBJECT.ID (30) x ACTIVITY.ID (6) combination.
+* 79 columns variables: Averages of the mean and standard deviation for each measurement
