@@ -86,79 +86,230 @@ filter and a 3rd order low pass Butterworth filter with a corner frequency of 20
 #####TIME.BODY.ACC.MEAN.Z
 * Number range from -1 to 1
             
-#####TIME.BODY.ACC.STD.X              
-#####TIME.BODY.ACC.STD.Y             
-#####TIME.BODY.ACC.STD.Z              
+#####TIME.BODY.ACC.STD.X
+* Number range from -1 to 1
+              
+#####TIME.BODY.ACC.STD.Y
+* Number range from -1 to 1
+             
+#####TIME.BODY.ACC.STD.Z
+* Number range from -1 to 1
+             
 #####TIME.GRAVITY.ACC.MEAN.X          
-#####TIME.GRAVITY.ACC.MEAN.Y          
+* Number range from -1 to 1
+
+#####TIME.GRAVITY.ACC.MEAN.Y
+* Number range from -1 to 1
+          
 #####TIME.GRAVITY.ACC.MEAN.Z         
-#####TIME.GRAVITY.ACC.STD.X           
-#####TIME.GRAVITY.ACC.STD.Y           
+* Number range from -1 to 1
+
+#####TIME.GRAVITY.ACC.STD.X
+* Number range from -1 to 1
+           
+#####TIME.GRAVITY.ACC.STD.Y
+* Number range from -1 to 1
+           
 #####TIME.GRAVITY.ACC.STD.Z           
+* Number range from -1 to 1
+
 #####TIME.BODY.ACC.JERK.MEAN.X       
+* Number range from -1 to 1
+
 #####TIME.BODY.ACC.JERK.MEAN.Y        
+* Number range from -1 to 1
+
 #####TIME.BODY.ACC.JERK.MEAN.Z        
+* Number range from -1 to 1
+
 #####TIME.BODY.ACC.JERK.STD.X         
+* Number range from -1 to 1
+
 #####TIME.BODY.ACC.JERK.STD.Y        
+* Number range from -1 to 1
+
 #####TIME.BODY.ACC.JERK.STD.Z         
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.MEAN.X            
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.MEAN.Y            
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.MEAN.Z           
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.STD.X             
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.STD.Y             
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.STD.Z             
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.JERK.MEAN.X      
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.JERK.MEAN.Y      
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.JERK.MEAN.Z       
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.JERK.STD.X        
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.JERK.STD.Y       
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.JERK.STD.Z        
+* Number range from -1 to 1
+
 #####TIME.BODY.ACC.MAG.MEAN           
+* Number range from -1 to 1
+
 #####TIME.BODY.ACC.MAG.STD            
+* Number range from -1 to 1
+
 #####TIME.GRAVITY.ACC.MAG.MEAN       
+* Number range from -1 to 1
+
 #####TIME.GRAVITY.ACC.MAG.STD         
+* Number range from -1 to 1
+
 #####TIME.BODY.ACC.JERK.MAG.MEAN      
+* Number range from -1 to 1
+
 #####TIME.BODY.ACC.JERK.MAG.STD       
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.MAG.MEAN         
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.MAG.STD           
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.JERK.MAG.MEAN     
+* Number range from -1 to 1
+
 #####TIME.BODY.GYRO.JERK.MAG.STD      
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.MEAN.X             
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.MEAN.Y              
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.MEAN.Z              
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.STD.X               
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.STD.Y              
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.STD.Z               
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.MEAN.FREQ.X         
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.MEAN.FREQ.Y        
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.MEAN.FREQ.Z        
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.JERK.MEAN.X         
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.JERK.MEAN.Y         
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.JERK.MEAN.Z         
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.JERK.STD.X         
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.JERK.STD.Y          
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.JERK.STD.Z         
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.JERK.MEAN.FREQ.X    
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.JERK.MEAN.FREQ.Y   
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.JERK.MEAN.FREQ.Z    
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.MEAN.X             
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.MEAN.Y             
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.MEAN.Z            
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.STD.X              
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.STD.Y              
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.STD.Z              
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.MEAN.FREQ.X       
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.MEAN.FREQ.Y        
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.MEAN.FREQ.Z        
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.MAG.MEAN            
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.MAG.STD            
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.MAG.MEAN.FREQ       
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.JERK.MAG.MEAN       
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.JERK.MAG.STD        
+* Number range from -1 to 1
+
 #####FFT.BODY.ACC.JERK.MAG.MEAN.FREQ 
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.MAG.MEAN           
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.MAG.STD            
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.MAG.MEAN.FREQ      
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.JERK.MAG.MEAN     
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.JERK.MAG.STD       
+* Number range from -1 to 1
+
 #####FFT.BODY.GYRO.JERK.MAG.MEAN.FREQ
+* Number range from -1 to 1
