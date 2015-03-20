@@ -5,7 +5,7 @@ from "./UCI HAR Dataset" directory, perform 5 cleanup tasks to the raw data and 
 a tidy dataframe as a result.  Below are the detailed descriptions of the expected
 input, cleanup tasks and the output:
 
-##Expected input: "./UCI HAR Dataset"
+##Expected input: "./UCI HAR Dataset" should be present in the working directory
 1. activity_labels.txt - Text label for each activity id
 2. features.txt - Text label for each sensor output
 
