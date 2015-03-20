@@ -75,6 +75,8 @@ filter and a 3rd order low pass Butterworth filter with a corner frequency of 20
 
 * **MEAN**: Mean value
 
+* **FREQ**: Frequency
+
 * **X.Y.Y**: Denote 3-axial signals in the X, Y and Z directions.
 
 #####TIME.BODY.ACC.MEAN.X
