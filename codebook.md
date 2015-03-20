@@ -52,7 +52,7 @@ out of the 561 variables collected during the experiment.
 
 * All variables units are normalized within [-1,1]
 
-Each of the 79 variable is labeled using the following keyword:
+Each of the 79 variable is labeled using the following keywords:
 
 * **TIME**: a time domain signal, captured at a constant rate of 50Hz. Then they were filtered using a median 
 filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
@@ -78,7 +78,8 @@ filter and a 3rd order low pass Butterworth filter with a corner frequency of 20
 * **X.Y.Y**: Denote 3-axial signals in the X, Y and Z directions.
 
 #####TIME.BODY.ACC.MEAN.X
-#####TIME.BODY.ACC.MEAN.Y            
+* Number range from -1 to 1
+#####TIME.BODY.ACC.MEAN.Y
 #####TIME.BODY.ACC.MEAN.Z            
 #####TIME.BODY.ACC.STD.X              
 #####TIME.BODY.ACC.STD.Y             
