@@ -23,7 +23,7 @@
 
 # Output: run_analyis returns a tidy dataframe from step 5 and it also writes
 # the tidy dataframe to a file named "har_tidy_data.txt"
-# The result tidy datafram has:
+# The result tidy dataframe has:
 #   o 180 rows (observations) for each of the SUBJECT.ID (30) x ACTIVITY.ID (6) combination.
 #   o 79 columns variables: Averages of the mean and standard deviation for each measurement
 
