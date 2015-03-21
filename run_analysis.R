@@ -85,7 +85,9 @@ run_analysis <- function() {
 
     # Perform the 4th cleanup task
     # 4 Appropriately labels the data set with descriptive variable names.
-    # by making the following substitution so that labels are all CAP with . seperated
+    # by making the following substitution so that all columns variables are
+    # labeled by a combination of descriptive keywords:
+    # TIME, FFT, ACC, GYRO, BODY, GRAVITY, JERK, MAG, STD, MEAN, FREQ, X, Y, Z
     #
     names(tidy.data) <- gsub(pattern="[()]", replacement="", names(tidy.data))
     names(tidy.data) <- gsub(pattern="[-]", replacement=".", names(tidy.data))
